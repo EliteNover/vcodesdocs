@@ -22,7 +22,7 @@ const SEO = ({ title , description }: {
     <>
         <title>{title}: {"vCodes — API Docs for Developers"}</title>
         <meta name="description" content={description || defaultDescription} />
-        <link rel="icon" href="https://cdn.vcodes.xyz/assets/logo.png" />
+        <link rel="icon" href="https://cdn.vcodes.xyz/assets/icon.png" />
         <meta name="theme-color" content="#7c3aed" />
         <meta name="og:title" content={title +": vCodes — API Docs for Developers"} />
         <meta name="og:description" content={description || defaultDescription} />
