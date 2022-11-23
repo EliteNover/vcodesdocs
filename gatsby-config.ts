@@ -18,6 +18,7 @@ const config: GatsbyConfig = {
     siteUrl: `https://github.com/vcodes-xyz/docs`
   },
   plugins: [
+    'gatsby-plugin-netlify',
     {
       resolve: `gatsby-transformer-remark`,
       options: {

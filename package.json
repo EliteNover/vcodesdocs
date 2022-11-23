@@ -8,8 +8,11 @@
     "gatsby"
   ],
   "scripts": {
-    "start": "gatsby serve",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
     "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -40,6 +43,7 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "autoprefixer": "^10.4.13",
+    "gatsby-plugin-netlify": "^5.0.1",
     "gatsby-plugin-postcss": "^6.1.0",
     "postcss": "^8.4.19",
     "tailwindcss": "^3.2.4",
