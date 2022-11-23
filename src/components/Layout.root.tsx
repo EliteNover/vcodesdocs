@@ -179,7 +179,7 @@ export default function LayoutRoot({ sidebarRoot, children, mdx }: {
                                                 <a
                                                     className="pt-6 text-white hover:opacity-70 cursor-pointer transition-all duration-200 flex items-center gap-2"
                                                     /* https://github.com/VoidDevsorg/mongoose-backup/blob/main/dist/src/index.js */
-                                                    href={`${data.site.siteMetadata.siteUrl}/blob/main/content${mdx.frontmatter.root}`}
+                                                    href={`${data.site.siteMetadata.siteUrl}/blob/main/content${mdx.frontmatter.root}.mdx`}
                                                     target="_blank"
                                                 >
                                                     <AiOutlineGithub size={24} />
