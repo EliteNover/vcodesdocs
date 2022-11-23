@@ -1,3 +1,6 @@
+## vCodes Documentation
+- It is not designed for current vCodes. Designed for vCodes v5. If you start using it, you will not be able to get help from us.
+
 ## 🚀 Quick start
 
 1.  **Start developing.**
