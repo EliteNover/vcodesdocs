@@ -16,7 +16,7 @@ const SEO = ({ title , description }: {
     }
   `)
   
-  const defaultDescription = "Integrate your application with vCodes — Whether you post announcements for your bot, add commands for your bot, or search for bots and users and explore your own imagination.";
+  const defaultDescription = "✨ Beautify your application with vCodes — Whether you manage your bot(s), or search for users or bots to improve your bot(s).";
 
   return (
     <>
