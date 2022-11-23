@@ -194,7 +194,6 @@ export default function LayoutRoot({ sidebarRoot, children, mdx }: {
                     </div>
                 </div>
             </div>
-
         </div>
     );
 }
